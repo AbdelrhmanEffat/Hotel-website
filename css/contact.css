@@ -1,0 +1,54 @@
+/* Start Global */ 
+
+body {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px
+    /*background-color: #E4E4E4;*/
+}
+
+/* End Global */
+
+/* Start Form */
+
+.leaf-form {
+    max-width: 500px;
+    margin: 30px auto
+}
+
+.leaf-form input,
+.leaf-form textarea {
+    margin-bottom: 5px
+}
+
+.leaf-form textarea {
+    height: 200px !important
+}
+
+.leaf-form input:not([type='submit']) + i {
+    height: 0;
+    float: left;
+    position: relative;
+    top: -28px;
+    left: 10px;
+    color: #999;
+}
+
+.leaf-form input {
+    padding-left: 32px
+}
+
+
+.leaf-form .send-icon {
+    display: block;
+    position: relative;
+    top: -29px;
+    left: 8px;
+    color: #FFF
+}
+
+.leaf-form .custom-alert {
+    padding: 5px 10px;
+    display: none
+}
+
+/* End Form */

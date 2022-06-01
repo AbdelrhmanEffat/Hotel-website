@@ -1,0 +1,309 @@
+/*  Start Global */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    overflow: hidden
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin: 0 
+}
+
+/* End Global */
+
+/* Start Logo Area */
+
+main {
+    text-align: center;
+    margin-top: 5px
+}
+
+main p {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 5px
+}
+
+/* End Logo Area */
+
+/* Start Navbar  with my overwritng bootstrap */ 
+
+/* active link */
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #da9e31;
+}
+
+/* navbar link */
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #BBB
+}
+
+/* brand */
+
+.navbar-inverse .navbar-brand {
+    color: #BBB;
+    padding: 0;
+    padding-left: -20px
+}
+.navbar-inverse .navbar-brand  img {
+    max-width: 55%;
+}
+
+/* dropdown */ 
+
+.dropdown-menu {
+    background-color: #333;
+    font-size: 20px
+}
+
+.dropdown-menu > li > a {
+    color: #FFF;
+    padding: 6px 20px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #da9e31;
+    color: #FFF;
+    
+}
+
+/* End Navbar overwritng bootstrap  */ 
+
+/* Start Header */
+
+header {
+    background-image: url('../images/portfolio1-780x320.jpg');
+    background-position:center;
+    height:400px;
+    padding-top: 180px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-top: -20px
+}
+
+header .my-event {
+    background-color: white;
+    width: 1200px;
+    height: 1470px;
+    background-color: #F5F5F5
+}
+
+header .my-event h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    padding-top: 30px;
+    margin-bottom: 50px
+}
+
+header .my-event img {
+    width: 45%;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 60px
+}
+
+header .my-event img {
+    width: 45%;
+    float: right;
+    margin-right: 30px
+}
+
+header .my-event .dining {
+    width: 45%;
+    float: right;
+    margin-right: 30px;
+    text-align: center
+}
+
+header .my-event .dining p,
+header .my-event .event p{
+    margin-bottom: 4px;
+    font-size: 25px;
+    color:darkgoldenrod;
+    text-transform: uppercase
+}
+
+header .my-event .dining span,
+header .my-event .event span {
+    display:block
+}
+
+header .my-event .dining .fir,
+header .my-event .event .fir {
+    color: #6B6B6B; /* #9C9C9C */ 
+    text-transform: uppercase;
+} 
+
+header .my-event .dining .sec,
+header .my-event .dining .for,
+header .my-event .event .sec,
+header .my-event .event .for{
+    margin-top: 40px;
+    color:#9C9C9C;
+    letter-spacing: 1.5px
+}
+
+header .my-event .dining .thd,
+header .my-event .dining .fiv,
+header .my-event .event .thd,
+header .my-event .event .fiv {
+    color: #6B6B6B;
+}
+
+header .my-event .dining .for,
+header .my-event .event .for{
+    margin-top: 20px
+}
+
+header .my-event .dining .six,
+header .my-event .event .six{
+    margin: 30px
+}
+
+header .my-event .dining .p2,
+header .my-event .event .p2,
+header .my-event .event .p3{
+    color: #6B6B6B;
+    text-transform: none
+}
+
+header .my-event .event {
+    width: 45%;
+    float: right;
+    margin-right: 30px;
+    text-align: center;
+    margin-top: -654px
+}
+
+header .my-event .event .btn,
+header .my-event .dining .btn {
+    box-sizing: border-box;
+	background: #000; 
+	background: rgba(255, 255, 255, 0.3);
+	border: 2px solid #000;
+	color: #da9e31;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all 0.3s ease-out;
+    font-size: 20px;
+    margin-top: 50px
+}
+
+header .my-event .event a:hover,
+header .my-event .dining a:hover {
+    background: #da9e31;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+
+/* End Header */
+
+
+/* Srart Features */
+
+.about-features .col-lg-4 {
+    margin-top: 60px;
+    padding-bottom: 50px;
+    display: none;
+}
+
+.about-features h3 {
+    color: #da9e31
+}
+
+.about-features p {
+    margin-bottom: 20px
+}
+
+/* End The Page "About US" */
+
+
+/* Start Footer */
+
+footer {
+    background-color: #232323;
+    color: #6C6C6C;
+    padding: 40px 0;
+    overflow: hidden;
+    margin-top: 120px
+}
+
+
+footer .col {
+    width: 25%;
+    float: left
+}
+
+footer .col li a {
+    color:#FFF;
+    text-decoration: none
+}
+
+footer .col li a:hover{
+    color:#da9e31;
+}
+
+footer .col h2 {
+    color:#FFF;
+    font-family: serif;
+    font-weight: normal;
+    font-size: 20px
+}
+
+
+footer .blog ul li {
+    padding: 15px;
+    border-bottom: 1px solid #979797;
+    color:#CCC;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px
+}
+
+footer .social {
+    text-align: center;
+    margin-top: 10px
+}
+
+footer .social li {
+    display: inline-block;
+    color:#979797;
+    border: 1px solid #979797;
+    width: 50px;
+    padding: 7px;
+    margin-top: 20px;
+}
+
+footer .social li a:hover {
+    color:#da9e31;
+}
+
+footer .social li a {
+    color:#FFF;
+    text-decoration: none
+}
+
+footer .copyright {
+    margin-top: 15px;
+    text-align: center
+}
+
+/* End Footer */

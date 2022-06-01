@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home!</title>
+        <link rel="icon" href="file:///F:/ex/hotel/18197603_1302109233218770_570496268_n.png" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+        <link rel="stylesheet" href="css/jquery.funnyText.css">
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/play.css" />
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.min.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+
+        <!-- Start Book -->
+        
+         <div class="modal" id="modal-one" aria-hidden="true">
+          <div class="modal-dialog">
+                <div class="modal-header">
+                  <h2>Reserve a Room</h2>
+                  <a href="#close" class="btn-close" aria-hidden="true">×</a>
+                </div>
+                <div class="modal-body">
+                    Name
+                    <input type="text" class="input-spl" placeholder="Name">
+                    Phone Numder
+                    <input type="number" class="input-spl" placeholder="Phone number">
+                    Check in Date and Timings
+                    <input type="datetime-local" class="input-spl">
+                    <h3>Room type</h3>
+                    <select class="input-spl">
+                        <option disabled>Choose one package</option>
+                        <option value="1">Delux</option>
+                        <option value="2">Diamond</option>
+                        <option value="3">Economy</option>
+                    </select>
+                </div>
+                <div class="modal-footer">
+                  <a href="#close" class="btn">Close</a>
+                  <a class="button button-green">Submit</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- End Book -->
+        
+        <!-- Start Logo Area -->
+        
+        <main>
+            <img src="images/Capture2.PNG" alt="Logo"/>
+            <p class="p">The Golden Leaf Hotel</p>
+        </main>
+        
+        <!-- End Logo Area -->
+        
+        <!-- Start Navbar -->
+        
+        <nav class="navbar navbar-inverse ">
+          <div class="container">
+              
+            <!-- Brand and toggle get grouped for better mobile display -->
+              
+            <div class="navbar-header">
+                
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavebar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                
+              <a class="navbar-brand" href="#"><center><img alt="Brand" src="images/18197603_1302109233218770_570496268_n.png"></center></a>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+              
+            <div class="collapse navbar-collapse" id="mynavebar">
+                
+              <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="FAQ.html">FAQ</a></li>
+
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="room.html">Rooms</a></li>
+                      <li><a href="events.html">Dining &amp; Events</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Book a Room</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+                
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">1-800-000-0000</a></li>
+                <li class="active"><a href="#">Welcome!<span class="sr-only">(current)</span></a></li>
+              </ul>
+                
+            </div>
+          </div> <!-- end of the container -->
+        </nav>
+        
+        <!-- End Navbar -->
+                
+        <!-- Start Header " Carousel " -->
+        <header>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators hidden-xs">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="images/tsphoto.jpg" alt="Pic 1">
+                  <div class="carousel-caption hidden-xs">
+                      <h2>The Golden Leaf Hotel Luxury Accommodation Since 1956</h2>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/fsphoto.jpg" alt="Pic 2">
+                  <div class="carousel-caption hidden-xs">
+                      <h2>The Hotel Wish You Comfortable Stay</h2>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/ssphoto.jpg" alt="Pic 3">
+                  <div class="carousel-caption hidden-xs">
+                      <h2>You Can Book Your Rome From here</h2>
+                      <a class="btn btn-primary">Book!Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </header>
+        
+        <!-- End Header " Carousel " -->
+        
+        <!-- Start our service -->
+        
+        <section>
+          <div id="section1" class="tabs">
+            <div class="container">
+                <center><h1>WHAT WE HAVE FOR YOU</h1></center>
+            </div>
+                <nav>
+                    <ul>
+                        <li><a href="#section-1" class="icon-shop"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span>Rooms</span></a></li>
+                        <li><a href="#section-2" class="icon-cup"><span class="glyphicon glyphicon-signal" aria-hidden="true"></span><span>Services</span></a></li>
+                        <li><a href="#section-3" class="icon-food"><span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span><span>Food</span></a></li>
+                        <li><a href="#section-4" class="icon-lab"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span><span>History</span></a></li>
+                    </ul>
+                </nav>
+                <div class="content">
+                    <section id="section-1">
+                        <div class="mediabox">
+                            <img src="images/room-min.jpg" alt="img01" />
+                            <h3>Luxury Bed Room</h3>
+                            <p>Sushi gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame.</p>
+                            <button class="button button-blue">View</button>
+                        </div>
+                        <div class="mediabox">
+                            <img src="images/room1-min.jpg" alt="img02" />
+                            <h3>Beautiful Tall Home</h3>
+                            <p>Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin seakale pumpkin onion chickpea gram corn pea.</p>
+                            <button class="button button-purple">View</button>
+                        </div>
+                        <div class="mediabox">
+                            <img src="images/room2-min.jpg" alt="img03" />
+                            <h3>Excellent Room Service</h3>
+                            <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p>
+                            <button class="button button-gray">View</button>
+                        </div>
+                    </section>
+                    <section id="section-2">
+                        <div class="mediabox">
+                            <img src="images/room6-min.jpg" alt="img04" />
+                            <h3>Free WiFi</h3>
+                            <p>Chickweed okra pea winter purslane coriander yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane earthnut pea tomato spring onion azuki bean gourd. </p>
+                            <button class="button button-orange">Explore</button>
+                        </div>
+                        <div class="mediabox">
+                            <img src="images/room4-min.jpg" alt="img05" />
+                            <h3>Indoor Swimming Pool</h3>
+                            <p>Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
+                        <button class="button button-darkblue">Explore</button>
+                        </div>
+                        <div class="mediabox">
+                            <img src="images/room5-min.jpg" alt="img06" />
+                            <h3>Indoor Games</h3>
+                            <p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. </p>
+                        <button class="button button-pink">Explore</button>
+                        </div>
+                    </section>
+                    <section id="section-3">
+                            <div class="mediabox">
+                            <img src="images/room8-min.jpg" alt="South Indian" />
+                            <h3>South Indian</h3>
+                            <p>Chickweed okra pea winter purslane coriander yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane earthnut pea tomato spring onion azuki bean gourd. </p>
+                            <button class="button button-blue">View</button>
+                        </div>
+                        <div class="mediabox">
+                            <img src="images/room9-min.jpg" alt="img05" />
+                            <h3>Bengali</h3>
+                            <p>Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
+                            <button class="button button-gray">View</button>
+                        </div>
+                        <div class="mediabox">
+                            <img src="images/room10-min.jpeg" alt="img06" />
+                            <h3>Rajasthani Thali</h3>
+                            <p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. </p>
+                        <button class="button button-purple">View</button>
+                        </div>
+                    </section>
+                    <section id="section-4">
+                        <div class="mediabox" style="width: 96%;">
+                            <center><h3>Golden Leaf Hotel</h3></center>
+                                <p style="color: #444">
+                                    Catsear cauliflower garbanzo yarrow salsify chicory  garlic 1956 bell pepper napa cabbage lettuce tomato kale arugula melon sierra leone bologi rutabaga tigernut.
+                                    Catsear cauliflower garbanzo yarrow salsify chicory 24 December garlic bell pepper napa cabbage lettuce tomato kale arugula melon sierra leone bologi rutabaga tigernut.
+                                    Catsear cauliflower garbanzo yarrow cauliflower garbanzo yarrow salsify chicory 24 December garlic bell pepper napa cabbage lettuce tomato kale arugula melon sierra leone bologi rutabaga tigernut.
+                                    Catsear cauliflower garbanzo yarrow salsify chicory garlic bell pepper napa cabbage lettuce tomato kale arugula melon sierra leone bologi rutabaga tigernut.
+                                </p>
+                        </div>
+                    </section>
+                </div><!-- /content -->
+            </div><!-- /tabs -->
+        </section>
+
+        <!--End our srvices -->
+        
+        <!-- Start our Team -->
+        
+        <section class="our_team text-center">
+            <div class="team">
+                <div class="container">
+                    <h1>Meet Our Team</h1>
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="images/shahin.jpg" alt="shahin" />
+                                <h3>Abdelrhman Shahin</h3>
+                                <p>I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="images/elsaid.jpg" alt="elsaed" />
+                                <h3>Abdelrhman Elsaed</h3>
+                                <p>I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="images/marly.jpg" alt="marly" />
+                                <h3>Abdelrhman Ḿoḟadel</h3>
+                                <p>I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="person">
+                                <img class="img-circle" src="images/effat.jpg" alt="effat" />
+                                <h3>Abdelrhman Effat</h3>
+                                <p>I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        
+        <!-- End our Team -->
+        
+        <!-- Start Projects -->
+        
+        <div class="projects" id="port">
+            <div class="container">
+                <h2>The Golden Leaf Hotel Facilities</h2>
+                <div class="gallery">
+                    <div class="row">
+                        <img src="images/1.jpg" alt="">
+                        <div class="text">
+                            <h5>Perfect Event Space</h5>
+                            <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                            <button class="btn btn-default" id="open-modal" onclick="#modal-one">Book!Now</button>
+                        </div>
+                        <img src="images/4.jpg" alt="">
+                        <div class="text">
+                            <h5>Contemporary Decor</h5>
+                            <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                            <button class="btn btn-default" id="open-modal" onclick="#modal-one">Book!Now</button>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row">
+                        <div class="text">
+                            <h5>Central Location</h5>
+                            <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                            <button class="btn btn-default" id="open-modal" onclick="#modal-one">Book!Now</button>
+                        </div>
+                        <img src="images/3.jpg" alt="">
+                            
+                        <div class="text">
+                            <h5>Super Cuisine</h5>
+                            <p>I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                            <button class="btn btn-default" id="open-modal" onclick="#modal-one">Book!Now</button>
+                        </div>
+                        <img src="images/2.jpg" alt="">
+                    </div>    
+                </div>
+            </div>
+        </div>
+        
+        <!-- End Projects -->
+        
+                
+        <!-- Start Footer -->
+        
+        <footer>
+            <div class="container" id="cont">
+                <div class="col blog">
+                    <h2>Destinations</h2>
+                    <ul>
+                        <li><a href="#">Liverpool</a></li>
+                        <li><a href="#">Egypt</a></li>
+                        <li><a href="#">UAE</a></li>    
+                    </ul>
+                </div>
+                <div class="col blog">
+                    <h2>Discover</h2>
+                    <ul>
+                        <li><a href="#">Responsible Luxury</a></li>
+                        <li><a href="#">Loyalty Programmes</a></li>
+                        <li><a href="#">Environment</a></li>
+                        <li><a href="#">Luxury Sojourns</a></li>
+                        <li><a href="#">Offers</a></li>
+                    </ul>
+                </div>
+                <div class="col blog">
+                    <h2>Follow</h2>
+                    <ul>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">The Luxury Collection</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">HMI</a></li>
+                    </ul>
+                </div>
+                <div class="col blog">
+                    <h2>Get In Touch</h2>
+                    <ul>
+                        <li><a href="https://www.facebook.com/Mr.VIRuS.995" target="_blank">Facebook</a></li>
+                        <li><a href="https://goo.gl/4w8gjL" target="_blank">Twitter Concierge</a></li>
+                        <li><a href="https://goo.gl/UpMCf" target="_blank">Send an Email</a></li>
+                        <li><a href="form.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <div class="social">
+                    <ul>
+                        <li><a class="fa fa-cc-paypal fa-lg"  href="https://goo.gl/SUq9Kk" target="_blank"></a></li>
+                        <li><a class="fa fa-cc-amex fa-lg"  href="https://goo.gl/ygTHm" target="_blank"></a></li>
+                        <li><a class="fa fa-cc-visa fa-lg" href="https://goo.gl/0PcshU" target="_blank"></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">Copyright &copy; 2017 All Right Reserved</div>
+            </div>
+        </footer>
+        
+        <!-- End Footer -->
+        
+        <!-- Start Loading -->
+        
+        <section class="loading-overlay">
+            <div class="spinner">
+              <div class="rect1"></div>
+              <div class="rect2"></div>
+              <div class="rect3"></div>
+              <div class="rect4"></div>
+              <div class="rect5"></div>
+            </div>
+        </section>
+        
+        <!-- End Loading -->
+        
+        <!-- JS Folders -->
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/jquery.funnyText.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script2.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

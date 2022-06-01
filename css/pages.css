@@ -1,0 +1,287 @@
+/*  Start Global */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    overflow: hidden
+}
+
+ul {
+    list-style: none;
+    padding:0;
+    margin: 0 
+}
+
+/* End Global */
+
+/* Start Logo Area */
+
+main {
+    text-align: center;
+    margin-top: 5px
+}
+
+main p {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 5px
+}
+
+/* End Logo Area */
+
+/* Start Navbar  with my overwritng bootstrap */ 
+
+/* active link */
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #da9e31;
+}
+
+/* navbar link */
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #BBB
+}
+
+/* brand */
+
+.navbar-inverse .navbar-brand {
+    color: #BBB;
+    padding: 0;
+    padding-left: -20px
+}
+.navbar-inverse .navbar-brand  img {
+    max-width: 55%;
+}
+
+/* dropdown */ 
+
+.dropdown-menu {
+    background-color: #333;
+    font-size: 20px
+}
+
+.dropdown-menu > li > a {
+    color: #FFF;
+    padding: 6px 20px;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: #da9e31;
+    color: #FFF;
+    
+}
+
+/* End Navbar overwritng bootstrap  */ 
+
+
+/* Start The Page "About US" */
+
+
+/* Start The Page " FAQ " */
+
+.faq h1 {
+    color: #da9e31;
+    letter-spacing: 1px 
+}
+
+.faq-question .panel-group a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #444
+}
+
+.faq-question .panel-group a.collapsed:after {
+    content: "\e080";
+    color: #999
+}
+
+/* End The Page " FAQ " */
+
+/* Start Header */
+
+header {
+    background-image: url('../images/portfolio1-780x320.jpg');
+    background-position:center;
+    height:400px;
+    padding-top: 180px;
+    margin-top: -20px
+}
+
+header .about {
+    background-color: white;
+    width: 1200px;
+    height: 1100px;
+    background-color: #F5F5F5
+}
+
+header .about .span {
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 50px
+}
+
+header .about .slider > div {
+    display:none;
+}
+
+header .about .slider .active {
+    display: block
+}
+
+header .about .slider  {
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+header .who-we,
+header .amenities {
+    margin-top: 60px;
+    text-align: center;
+    float: left
+}
+
+header .who-we {
+    width: 50%;
+    
+}
+
+header .who-we h4,
+header .amenities h4 {
+    text-transform: uppercase;
+    font-family: serif;
+    font-size: 30px;
+    margin-top: 10px
+}
+
+header .who-we span,
+header .amenities span {
+    font-size: 20px
+}
+
+header .who-we p {
+    text-align: center;
+    color: #6B6B6B;
+    line-height: 1.5;
+    margin-left: 5px
+    
+}
+
+header .amenities {
+    width:40%
+}
+
+header .amenities ul {
+    list-style: circle;
+    color:#6B6B6B;
+    text-align: left;
+    margin-left: 120px;
+    line-height: 1.5
+    
+}
+
+/* End Header */
+
+/* Srart Features */
+
+.about-features .col-lg-4 {
+    margin-top: 60px;
+    padding-bottom: 50px
+}
+
+.about-features h3 {
+    color: #da9e31
+}
+
+.about-features p {
+    margin-bottom: 20px
+}
+
+/* End The Page "About US" */
+
+
+/* Start Footer */
+
+footer {
+    background-color: #232323;
+    color: #6C6C6C;
+    padding: 40px 0;
+    overflow: hidden;
+    
+}
+
+
+footer .col {
+    width: 25%;
+    float: left
+}
+
+footer .col li a {
+    color:#FFF;
+    text-decoration: none
+}
+
+footer .col li a:hover{
+    color:#da9e31;
+}
+
+footer .col h2 {
+    color:#FFF;
+    font-family: serif;
+    font-weight: normal;
+    font-size: 20px
+}
+
+
+footer .blog ul li {
+    padding: 15px;
+    border-bottom: 1px solid #979797;
+    color:#CCC;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px
+}
+
+footer .social {
+    text-align: center;
+    margin-top: 10px
+}
+
+footer .social li {
+    display: inline-block;
+    color:#979797;
+    border: 1px solid #979797;
+    width: 50px;
+    padding: 7px;
+    margin-top: 20px;
+}
+
+footer .social li a:hover {
+    color:#da9e31;
+}
+
+footer .social li a {
+    color:#FFF;
+    text-decoration: none
+}
+
+footer .copyright {
+    margin-top: 15px;
+    text-align: center
+}
+
+/* End Footer */

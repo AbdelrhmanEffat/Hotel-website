@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Golden Leaf Hotel Form Contact</title>
+        <link rel="icon" href="file:///F:/ex/hotel/18197603_1302109233218770_570496268_n.png" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/contact.css" />
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        
+        <!-- Start Form -->
+        
+        <div class="container">
+            <h1 class="text-center">Contact US</h1>
+             
+            <form class="leaf-form" action="" method="post"> 
+                
+                <input  class="username form-control"
+                        type="text" 
+                        name="username" 
+                        placeholder="Your Name" />
+                <i class="fa fa-user fa-fw"></i>
+                <div class="alert alert-danger custom-alert">
+                    Username Must Be Larger Than <strong>3</strong> Characters!
+                </div>
+                
+                <input class="email form-control"
+                       type="email" 
+                       name="email"
+                       placeholder="E-mail"/>
+                <i class="fa fa-envelope fa-fw"></i>
+                <div class="alert alert-danger custom-alert">
+                    Email Can't Be <strong>Empty</strong>
+                </div>
+                
+                
+                <input class="form-control"
+                       type="phone" 
+                       name="phone"
+                       placeholder="Phone" />
+                <i class="fa fa-phone fa-fw"></i>
+                
+                <textarea class="message form-control"
+                          name="message"
+                          placeholder="Your Subject!"></textarea>
+                <div class="alert alert-danger custom-alert">
+                    Message Can't Be Less Than  <strong>10</strong> Characters!
+                </div>
+                
+                <input class="btn btn-success"
+                       type="submit"
+                       value="Send Inquery" />
+                <i class="fa fa-send fa-fw send-icon"></i>
+            </form>
+        </div>
+        
+        <!-- End Form -->
+        
+        <script src="js/jquery-3.1.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/liverpool.js"></script>
+    </body>
+</html>
